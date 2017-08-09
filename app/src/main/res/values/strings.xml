@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobile Car</string>
+    <string name="btnParear">Parear</string>
+    <string name="btnActivityComComandos">Iniciar</string>
+    <string name="btnSubirVidroEsquerdo" />
+    <string name="btnDescerEsquerdo" />
+    <string name="btnSubirVidroDireito" />
+    <string name="btnDescerVidroDireito" />
+    <string name="btnDesceVidroDireito" />
+    <string name="btnPareados">Pareados</string>
+</resources>
