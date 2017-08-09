@@ -57,7 +57,7 @@ public class ActivityControleRemoto extends Activity  implements View.OnClickLis
         TextView dysplayDigital = (TextView) findViewById(R.id.txtRecebeNomeDisp);
         dysplayDigital.setTypeface(dysplay);
 
-        String testeCOMMMT = " Isso sera um teste de gitignore  ";
+        String testeCOMMMT = " Isso sera um teste de gitignore  2";
 
 
 
