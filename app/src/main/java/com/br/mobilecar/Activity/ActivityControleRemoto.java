@@ -57,7 +57,9 @@ public class ActivityControleRemoto extends Activity  implements View.OnClickLis
         TextView dysplayDigital = (TextView) findViewById(R.id.txtRecebeNomeDisp);
         dysplayDigital.setTypeface(dysplay);
 
-        String testeCOMMMT = " Isso é um teste de commit no github";
+        String testeCOMMMT = " Isso é um teste de commit no github   ";
+
+        String testeCOMMMT2 = " Isso é um teste de commit no github teste 2";
 
         //Declarando todos os botoes
         ImageButton btn_Liga_Desliga = (ImageButton) findViewById(R.id.btn_Liga_Desliga);
