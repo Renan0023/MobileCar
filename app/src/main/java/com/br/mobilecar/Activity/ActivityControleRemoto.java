@@ -49,7 +49,7 @@ public class ActivityControleRemoto extends Activity  implements View.OnClickLis
         TextView txtNomeDisp = (TextView) findViewById(R.id.txtRecebeNomeDisp);
         Intent intent = getIntent();
         Bundle recebenomeDispositivo = intent.getExtras();
-//        String nome = recebenomeDispositivo.getString("nomeDisp");
+        String nome = recebenomeDispositivo.getString("nomeDisp");
         txtNomeDisp.setText("teste");
 
         //processo para trocar a fonte do nome do dispositivo
@@ -57,7 +57,7 @@ public class ActivityControleRemoto extends Activity  implements View.OnClickLis
         TextView dysplayDigital = (TextView) findViewById(R.id.txtRecebeNomeDisp);
         dysplayDigital.setTypeface(dysplay);
 
-
+        String testeCOMMMT = " Isso é um teste de commit no github";
 
         //Declarando todos os botoes
         ImageButton btn_Liga_Desliga = (ImageButton) findViewById(R.id.btn_Liga_Desliga);
